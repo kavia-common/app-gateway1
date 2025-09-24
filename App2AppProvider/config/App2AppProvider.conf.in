@@ -1,0 +1,11 @@
+{
+  "locator": "libWPEFrameworkApp2AppProvider.so",
+  "classname": "App2AppProvider",
+  "autostart": true,
+  "precondition": ["NETWORK"],
+  "configuration": {
+    "jsonrpcVersion": 1,
+    "enableTokenCheck": false,
+    "maxPayloadBytes": 262144
+  }
+}
