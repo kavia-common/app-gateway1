@@ -1,0 +1,26 @@
+2025-09-24 04:24:38,933 - Knowledge - INFO - Redis support added with prefix knowledge:b2121yn:
+2025-09-24 04:24:39,189 - Knowledge - INFO - load persisted knowledge: begin
+2025-09-24 04:24:39,272 - Knowledge - INFO - load persisted knowledge: end
+2025-09-24 04:24:39,386 - Knowledge - INFO - load persisted docinfo: begin
+2025-09-24 04:24:39,465 - Knowledge - INFO - load persisted docinfo: end
+2025-09-24 04:24:39,589 - Knowledge - INFO - worker kw1 created with dedicated MongoDB connection (total: 1)
+2025-09-24 04:24:39,666 - Knowledge - INFO - knowledge worker kw1 start
+2025-09-24 04:24:39,779 - Knowledge - INFO - worker kw1 pull /app/data/tataelxsimcvaripplecode5379/712/b2121yn/app-gateway1/README.md from ingest queue
+2025-09-24 04:24:39,895 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimcvaripplecode5379/712/b2121yn/app-gateway1/README.md
+2025-09-24 04:24:39,992 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/app-gateway1.git:main
+2025-09-24 04:24:40,072 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f244a3c4750>
+2025-09-24 04:24:40,172 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimcvaripplecode5379/712/b2121yn/app-gateway1/README.md
+2025-09-24 04:24:40,304 - Knowledge - INFO - adding /app/data/tataelxsimcvaripplecode5379/712/b2121yn/app-gateway1/README.md to ingest queue
+2025-09-24 04:24:40,426 - Knowledge - INFO - worker kw1 pull /app/data/tataelxsimcvaripplecode5379/712/b2121yn/app-gateway1/README.md from ingest queue
+2025-09-24 04:24:40,523 - Knowledge - INFO - Thread kw1 - File README.md - Remaining files in queue: 0
+2025-09-24 04:24:40,648 - Knowledge - INFO - start ingest for /app/data/tataelxsimcvaripplecode5379/712/b2121yn/app-gateway1/README.md
+2025-09-24 04:24:40,736 - Knowledge - INFO - Fast-track processing for simple file: /app/data/tataelxsimcvaripplecode5379/712/b2121yn/app-gateway1/README.md
+2025-09-24 04:24:40,818 - Knowledge - INFO - done fast ingest for /app/data/tataelxsimcvaripplecode5379/712/b2121yn/app-gateway1/README.md
+2025-09-24 04:24:40,911 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimcvaripplecode5379/712/b2121yn/app-gateway1/README.md
+2025-09-24 04:24:41,005 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/app-gateway1.git:main
+2025-09-24 04:24:41,120 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f244a3c4750>
+2025-09-24 04:24:41,200 - Knowledge - INFO - persist ingested knowledge for /app/data/tataelxsimcvaripplecode5379/712/b2121yn/app-gateway1/README.md
+2025-09-24 04:24:41,374 - Knowledge - INFO - Knowledge creation complete
+2025-09-24 04:24:41,465 - Knowledge - INFO - Updating org costs, total cost: 0
+2025-09-24 04:24:41,687 - Knowledge - INFO - Saving knowledge to Redis...
+2025-09-24 04:24:41,802 - Knowledge - INFO - Knowledge saved to Redis successfully
