@@ -1,0 +1,19 @@
+{
+  "locator": "libWPEFrameworkAppNotifications.so",
+  "classname": "AppNotifications",
+  "autostart": true,
+  "precondition": ["NETWORK"],
+  "configuration": {
+    "jsonrpcVersion": 1,
+    "enableTokenCheck": false,
+    "maxPayloadBytes": 262144,
+    "storage": {
+      "source": "file",
+      "path": "%persistentpath%/notifications/store.json"
+    },
+    "retention": {
+      "maxNotifications": 1000,
+      "ttlSeconds": 0
+    }
+  }
+}
