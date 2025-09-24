@@ -55,3 +55,8 @@ install(TARGETS ${PROJECT_NAME}
 install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/config/AppGateway.conf.in
     DESTINATION share/Thunder/Plugins
 )
+
+# Add tests (optional; won’t fail if tests are not built explicitly)
+if (EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/Tests/CMakeLists.txt")
+    add_subdirectory(Tests)
+endif()
