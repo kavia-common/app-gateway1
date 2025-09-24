@@ -95,3 +95,17 @@
 2025-09-24 13:28:31,517 - Knowledge - INFO - Updating org costs, total cost: 0
 2025-09-24 13:28:32,349 - Knowledge - INFO - Saving knowledge to Redis...
 2025-09-24 13:28:32,444 - Knowledge - INFO - Knowledge saved to Redis successfully
+2025-09-24 13:58:44,262 - Knowledge - INFO - Redis support added with prefix knowledge:b2121yn:
+2025-09-24 13:58:44,515 - Knowledge - INFO - load persisted knowledge: begin
+2025-09-24 13:58:44,630 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/app-gateway1.git:main
+2025-09-24 13:58:44,716 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f5d17e52f90>
+2025-09-24 13:58:44,809 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimcvaripplecode5379/712/b2121yn/app-gateway1/README.md
+2025-09-24 13:58:44,886 - Knowledge - INFO - load persisted knowledge: end
+2025-09-24 13:58:45,004 - Knowledge - INFO - load persisted docinfo: begin
+2025-09-24 13:58:45,122 - Knowledge - INFO - load persisted docinfo: end
+2025-09-24 13:58:45,219 - Knowledge - INFO - worker kw1 created with dedicated MongoDB connection (total: 1)
+2025-09-24 13:58:45,336 - Knowledge - INFO - knowledge worker kw1 start
+2025-09-24 13:58:45,438 - Knowledge - INFO - Knowledge creation complete
+2025-09-24 13:58:45,521 - Knowledge - INFO - Updating org costs, total cost: 0
+2025-09-24 13:58:46,349 - Knowledge - INFO - Saving knowledge to Redis...
+2025-09-24 13:58:46,455 - Knowledge - INFO - Knowledge saved to Redis successfully
