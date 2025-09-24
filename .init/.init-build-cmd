@@ -1,0 +1,7 @@
+{ "working_directory": "/home/kavia/workspace/code-generation",
+ "command": "cmake -G Ninja -S app-gateway -B build/app-gateway -DCMAKE_BUILD_TYPE=Debug
+    -DCMAKE_INSTALL_PREFIX=$PWD/dependencies/install -DCMAKE_PREFIX_PATH=$PWD/dependencies/install
+    && cmake --build build/app-gateway --target install
+  startCommand: 
+  testCommand: cd dependencies/install/bin/tests && export LD_LIBRARY_PATH=../../lib
+    && ./test_appgateway" }
