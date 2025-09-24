@@ -1,0 +1,15 @@
+{
+  "locator": "libWPEFrameworkAppGateway.so",
+  "classname": "AppGateway",
+  "autostart": true,
+  "precondition": ["NETWORK", "GRAPHICS"],
+  "configuration": {
+    "root": { "mode": "Off" },
+    "registry": {
+      "source": "file",
+      "path": "%persistentpath%/apps/registry.json"
+    },
+    "launchTimeoutMs": 15000,
+    "enableTokenCheck": false
+  }
+}

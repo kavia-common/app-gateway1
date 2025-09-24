@@ -1,0 +1,3 @@
+{ "working_directory": "/home/kavia/workspace/code-generation",
+ "command": "cd dependencies/install/bin/tests && export LD_LIBRARY_PATH=../../lib
+    && ./test_appgateway" }
