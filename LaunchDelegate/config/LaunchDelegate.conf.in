@@ -1,0 +1,22 @@
+{
+  "locator": "libWPEFrameworkLaunchDelegate.so",
+  "classname": "LaunchDelegate",
+  "autostart": true,
+  "configuration": {
+    "enabled": true,
+    "defaultTimeoutMs": 15000,
+    "allowedApps": ["com.example.player", "com.example.gallery"],
+    "allowedSchemes": ["https", "app", "video"],
+    "providerChain": ["local-appmgr", "deeplink"],
+    "routing": [
+      {"match": "scheme:https", "providerId": "deeplink"},
+      {"match": "scheme:http", "providerId": "deeplink"},
+      {"match": "scheme:video", "providerId": "deeplink"},
+      {"match": "appId:*", "providerId": "local-appmgr"}
+    ],
+    "providers": {
+      "local-appmgr": { "type": "local" },
+      "deeplink": { "type": "deeplink" }
+    }
+  }
+}
